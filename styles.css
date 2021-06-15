@@ -1,0 +1,15 @@
+html{
+	font-size: 12px;
+	font-family: 'segoe UI';
+}
+
+h1{
+	color: blue;
+	font-size: 72px;
+
+}
+
+.content{
+	width: 960px;
+	margin: auto;
+}
