@@ -1,5 +1,5 @@
 html{
-	font-size: 12px;
+	font-size: 16px;
 	font-family: 'segoe UI';
 }
 
@@ -9,9 +9,17 @@ h1{
 
 }
 
+h2{
+	font-family: 'inter';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29px;
+}
+
 .content{
-	width: 960px;
+	max-width: 52rem;
 	margin: auto;
+	padding: 0 2rem;
 }
 
 .red-box{
@@ -24,6 +32,38 @@ h1{
 	right: 50px;
 }
 
-.sections{
+.FlexContainer{
 	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+}
+
+.FlexSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 48px;
+
+}
+
+.SectionHeader{
+	width: 5em;
+	margin: 0 24px 16px 0;
+}
+
+.SectionContent{
+	display: flex;
+	flex:1;
+	flex-basis: 20em;
+	flex-direction: column;
+}
+
+.SectionContent p {
+	margin:0
+}
+
+ul.ListA{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
